@@ -1,0 +1,111 @@
+/*
+    Import styling
+*/
+/*
+    Variables
+*/
+@import url("https://fonts.googleapis.com/css?family=VT323");
+/*
+    Typography
+*/
+body {
+  font-family: "VT323", monospace;
+  font-size: 20px;
+  font-weight: 700; }
+
+h1 {
+  font-size: 36px; }
+
+h2 {
+  font-size: 32px; }
+
+h3 {
+  font-size: 28px;
+  color: #8fe1a2; }
+
+h4 {
+  font-size: 24px;
+  color: #8fe1a2; }
+
+p {
+  margin: 0; }
+
+.data-content:before,
+.data-content:after,
+.bitcoin-data:before,
+.bitcoin-data:after,
+span.curl {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff; }
+
+.data-content:before {
+  content: "{"; }
+
+.data-content:after {
+  content: "}"; }
+
+/*
+    Base style
+*/
+body {
+  color: #fff;
+  background-image: -webkit-gradient(linear, right bottom, left top, from(#000000), color-stop(#0e0408), color-stop(#160912), color-stop(#1a0e1a), color-stop(#1c1222), color-stop(#1c1527), color-stop(#1c182d), color-stop(#1a1b32), color-stop(#181e34), color-stop(#152037), color-stop(#132338), to(#10253a));
+  background-image: -webkit-linear-gradient(right bottom, #000000, #0e0408, #160912, #1a0e1a, #1c1222, #1c1527, #1c182d, #1a1b32, #181e34, #152037, #132338, #10253a);
+  background-image: -o-linear-gradient(right bottom, #000000, #0e0408, #160912, #1a0e1a, #1c1222, #1c1527, #1c182d, #1a1b32, #181e34, #152037, #132338, #10253a);
+  background-image: linear-gradient(to left top, #000000, #0e0408, #160912, #1a0e1a, #1c1222, #1c1527, #1c182d, #1a1b32, #181e34, #152037, #132338, #10253a);
+  -webkit-transition: .7 all;
+  -o-transition: .7 all;
+  transition: .7 all; }
+
+.data-content {
+  padding: 35px 35px; }
+
+.bitcoin-item {
+  padding: 0 30px;
+  margin: 20px 0;
+  -webkit-transition: .7 all;
+  -o-transition: .7 all;
+  transition: .7 all; }
+
+.bitcoin-item:hover {
+  -webkit-animation: bounce 2s ease-in-out infinite;
+  animation: bounce 2s ease-in-out infinite;
+  -webkit-transition: -webkit-transform 300ms cubic-bezier(0, 0, 0.3, 1);
+  transition: -webkit-transform 300ms cubic-bezier(0, 0, 0.3, 1);
+  -o-transition: transform 300ms cubic-bezier(0, 0, 0.3, 1);
+  transition: transform 300ms cubic-bezier(0, 0, 0.3, 1);
+  transition: transform 300ms cubic-bezier(0, 0, 0.3, 1), -webkit-transform 300ms cubic-bezier(0, 0, 0.3, 1); }
+
+.bitcoin-item:hover h4 {
+  color: #FF8B6F; }
+
+.bitcoin-item:hover .bitcoin-content {
+  color: #F9F871; }
+
+.bitcoin-data,
+.bitcoin-list {
+  border-left: 3px dotted #8fe1a2;
+  padding: 35px;
+  color: #38bfa7; }
+
+.bitcoin-content {
+  padding: 0 35px; }
+
+@-webkit-keyframes bounce {
+  0%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  50% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px); } }
+
+@keyframes bounce {
+  0%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  50% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px); } }

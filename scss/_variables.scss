@@ -1,0 +1,25 @@
+/*
+    Variables
+*/
+
+
+// Typography
+@import url('https://fonts.googleapis.com/css?family=VT323');
+$font: 'VT323',
+monospace;
+
+// Colors
+$lilac: #524582;
+$blue: #367bc3;
+$turquoise: #38bfa7;
+$light-green: #8fe1a2;
+$red: #FF8B6F;
+$yellow: #F9F871;
+$black: #000;
+$white: #fff;
+$vibrant-bg-two: linear-gradient(to right bottom, #524582, #505293, #4b5fa4, #436db4, #367bc3);
+//$vibrant-bg-three: linear-gradient(to right bottom, #524582, #514f8f, #4e599c, #4a63a8, #436db4, #3479bd, #2185c5, #0090cb, #009ecb, #00abc3, #00b6b7, #38bfa7);
+$vibrant-bg-three: linear-gradient(to left top, #000000, #0e0408, #160912, #1a0e1a, #1c1222, #1c1527, #1c182d, #1a1b32, #181e34, #152037, #132338, #10253a);
+
+// Other
+$left-border: 3px dotted $light-green;

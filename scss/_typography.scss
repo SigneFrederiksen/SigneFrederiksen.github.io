@@ -1,0 +1,50 @@
+/*
+    Typography
+*/
+
+
+body {
+    font-family: $font;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 28px;
+    color: $light-green;
+}
+
+h4 {
+    font-size: 24px;
+    color: $light-green;
+}
+
+p {
+    margin: 0;
+}
+
+.data-content:before,
+.data-content:after,
+.bitcoin-data:before,
+.bitcoin-data:after,
+span.curl {
+    font-size: 14px;
+    font-weight: 700;
+    color: $white;
+}
+
+.data-content:before {
+    content: "{";
+}
+
+.data-content:after {
+    content: "}";
+}
